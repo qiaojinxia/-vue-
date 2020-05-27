@@ -239,7 +239,7 @@ data() {
 
 效果图:
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200518124939937.png" alt="image-20200518124939937" style="zoom:50%;" />
+<img src="./image-20200518124939937.png" alt="image-20200518124939937" style="zoom:50%;" />
 
 
 
@@ -368,9 +368,9 @@ span{
 
 设计一个多级 的文章列表
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200521122620770.png" alt="image-20200521122620770" style="zoom:50%;" />
+<img src="./image-20200521122620770.png" alt="image-20200521122620770" style="zoom:50%;" />
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200519100339531.png" alt="image-20200519100339531" style="zoom:50%;" />
+<img src="./image-20200519100339531.png" alt="image-20200519100339531" style="zoom:50%;" />
 
 使用若依的后台生成列表代码,但是若依的后台无法生成树形控件,父类目id 需要 能动态的选择 父类目id 只能我们手动完成,还好 文档里提供了 相关的组件,
 
@@ -601,7 +601,7 @@ public class treeSelectBean {
 
 用一些虚假的数据做测试,数据返回成功!
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200519112016713.png" alt="image-20200519112016713" style="zoom:50%;" />
+<img src="./image-20200519112016713.png" alt="image-20200519112016713" style="zoom:50%;" />
 
 实际上 VueTreeselect 提供了 转换的方法 但是 他需要的是children的id 而我的表 设计成了指向parentid 所以没有办法只能自己实现。
 
@@ -681,7 +681,7 @@ import Editor from '@/components/Editor';
 
 效果图:
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200520150526840.png" alt="image-20200520150526840" style="zoom:50%;" />
+<img src="./image-20200520150526840.png" alt="image-20200520150526840" style="zoom:50%;" />
 
 
 
@@ -903,7 +903,7 @@ import Editor from '@/components/Editor';
 </el-menu>
 ```
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200521122050526.png" alt="image-20200521122050526" style="zoom:50%;" />
+<img src="./image-20200521122050526.png" alt="image-20200521122050526" style="zoom:50%;" />
 
   el-main 的主题内容实现路由的局部刷新。
 
@@ -913,11 +913,11 @@ import Editor from '@/components/Editor';
 
 2. 然后index  就可以设置为要跳转的 路由了
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200521122353257.png" alt="image-20200521122353257" style="zoom:50%;" />
+<img src="./image-20200521122353257.png" alt="image-20200521122353257" style="zoom:50%;" />
 
 3. 最后 我们还需要取设置路由,在当前路由下设置children 路由
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200521122519607.png" alt="image-20200521122519607" style="zoom:50%;" />
+<img src="./image-20200521122519607.png" alt="image-20200521122519607" style="zoom:50%;" />
 
 
 
@@ -985,7 +985,7 @@ return {
   }}
 ```
 
-效果：<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200524150630395.png" alt="image-20200524150630395" style="zoom:50%;" />
+效果：<img src="./image-20200524150630395.png" alt="image-20200524150630395" style="zoom:50%;" />
 
 即使设置好了,实际上我们也是没法上传上取得,因为 如果直接通过url 请求去上传文件,权限系统会拦截不带token的请求,所以我们需要 在上传时附带上token.
 
@@ -1020,7 +1020,7 @@ computed:{
 
 接下来 我们就可以成功的上传图片了。
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200524152525166.png" alt="image-20200524152525166" style="zoom:50%;" />
+<img src="./image-20200524152525166.png" alt="image-20200524152525166" style="zoom:50%;" />
 
 当然 上传完图片 我们要处理 得到url 然后把它 设置到form 中去,这样提交后才能保存。为此 我们需要 给上传成功
 
@@ -1104,7 +1104,7 @@ if (config.url != '/login') {
 
 ## Element-ui Vue 实现列表 展示图片和缩略图
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200524161955983.png" alt="image-20200524161955983" style="zoom:50%;" />
+<img src="./image-20200524161955983.png" alt="image-20200524161955983" style="zoom:50%;" />
 
 有的时候我们上传了图片但是像让它,但是只有url 显示不够直观,所以 就要动手改造 把url 改造成显示图片其实方法比较简单,直接复制 下 就可以 然后把里面的字段改成你的 表字段名。
 
@@ -1127,7 +1127,7 @@ if (config.url != '/login') {
 
 效果图：
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200525180956911.png" alt="image-20200525180956911" style="zoom:50%;" />
+<img src="./image-20200525180956911.png" alt="image-20200525180956911" style="zoom:50%;" />
 
 ```html
 <el-table-column
@@ -1141,7 +1141,7 @@ if (config.url != '/login') {
 
 ## 一个较为简单的站内信息表设计
 
- <img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200525183035579.png" alt="image-20200525183035579" style="zoom:50%;" />
+ <img src="./image-20200525183035579.png" alt="image-20200525183035579" style="zoom:50%;" />
 
 
 
@@ -1208,7 +1208,7 @@ myTime(date){
 
 效果
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200526120611657.png" alt="image-20200526120611657" style="zoom:50%;" />
+<img src="./image-20200526120611657.png" alt="image-20200526120611657" style="zoom:50%;" />
 
 
 
@@ -1216,7 +1216,7 @@ myTime(date){
 
 ## Vue 修改树形 表格的图标
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200526170509798.png" alt="image-20200526170509798" style="zoom:50%;" />
+<img src="./image-20200526170509798.png" alt="image-20200526170509798" style="zoom:50%;" />
 
 
 
@@ -1259,7 +1259,7 @@ myTime(date){
 
 好了 我们 为了我们能取到表格数据,我们需要在 表格的 属性上加上 ref="table" ,
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200526171040647.png" alt="image-20200526171040647" style="zoom:50%;" />
+<img src="./image-20200526171040647.png" alt="image-20200526171040647" style="zoom:50%;" />
 
 
 
@@ -1286,7 +1286,7 @@ expend(row){
 
 ##### 效果图
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200526173103791.png" alt="image-20200526173103791" style="zoom:50%;" />
+<img src="./image-20200526173103791.png" alt="image-20200526173103791" style="zoom:50%;" />
 
 
 
@@ -1294,11 +1294,11 @@ expend(row){
 
 我们要实现  点击表格能展开 并且 点击后 要把 点击行的 底部边框隐藏。
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200527110928297.png" alt="image-20200527110928297" style="zoom:50%;" />
+<img src="./image-20200527110928297.png" alt="image-20200527110928297" style="zoom:50%;" />
 
 点击后 效果
 
-<img src="/Users/qiao/Library/Application Support/typora-user-images/image-20200527121508426.png" alt="image-20200527121508426" style="zoom:50%;" />
+<img src="./image-20200527121508426.png" alt="image-20200527121508426" style="zoom:50%;" />
 
  点击后 我们要对 底部边框进行消除,  我们可以使用 el-table 自带的 点击事件
 
